@@ -4,7 +4,10 @@ Sparse-Gen
 This repository provides a reference implementation for learning Sparse-Gen models as described in the paper:
 
 
-> Insert paper links here
+> Modeling Sparse Deviations for Compressed Sensing using Generative Models  
+Manik Dhar, Aditya Grover, Stefano Ermon  
+International Conference on Machine Learning (ICML), 2018  
+Paper: https://arxiv.org/abs/1807.01442
 
 ## Requirements
 
@@ -35,7 +38,7 @@ python ./src/wavelet_basis.py
 
 ## Options
 
-Learning and inference of Flow-GAN models is handled by the `main.py` script which provides the following command line arguments.
+Learning and inference of Sparse-Gen models is handled by the `main.py` script which provides the following command line arguments.
 
 ```
   --pretrained-model-dir PRETRAINED_MODEL_DIR
@@ -131,4 +134,8 @@ Portions of the codebase in this repository uses code originally provided in the
 If you find Sparse-Gen useful in your research, please consider citing the following paper:
 
 
->Add citation here
+>@inproceedings{dhar2018modeling,  
+  title={Modeling Sparse Deviations for Compressed Sensing using Generative Models},  
+  author={Dhar, Manik and Grover, Aditya and Ermon, Stefano},  
+  booktitle={International Conference on Machine Learning},  
+  year={2018}}
